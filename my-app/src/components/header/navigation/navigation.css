@@ -1,0 +1,26 @@
+.main-nav {
+    float:right;
+    list-style: none;
+    margin-top: 60px;
+}
+
+.main-nav li {
+    display: inline-block;
+    margin-left: 40px;
+    list-style:none;
+}
+.main-nav li a:visited,
+.main-nav li a:link
+ {
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 90%;
+    text-decoration: none;
+}
+
+.main-nav li a:hover,
+.main-nav li a:active
+ {
+    border-bottom: 2px solid #cf6d17;
+
+}
