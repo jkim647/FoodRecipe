@@ -4,7 +4,7 @@ header{
     height: 100vh;
     background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)),url('../../picture/hero.jpg');
     background-size:cover;
-    
+   
   }
   .header-box{
     position: absolute;
@@ -35,6 +35,11 @@ header{
       margin-right: 20px;
   }
 
+  .btn:hover,
+  .btn:active{
+    background-color: #cf6d17;
+  }
+
   .btn-left-button:link,
   .btn-left-button:visited{
       background-color: #e67e22;
@@ -47,4 +52,14 @@ header{
   .btn-right-button:visited{
     border: 1px solid #e67e22;
     color: #e67e22;
+}
+
+.btn-right-button:hover,
+  .btn-right-button:active{
+   color: white;
+}
+
+.btn-left-button:hover,
+  .btn-left-button:active{
+   background-color: #cc6810;
 }

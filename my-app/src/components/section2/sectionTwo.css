@@ -1,0 +1,42 @@
+.sectionTwo{
+    max-width: 1140px;
+    margin: auto;
+    width: 500%;
+    
+}
+
+.step-box{
+    margin-top: 30px;
+}
+
+.step-box:first-child{
+    text-align: right;
+    padding-right: 3%;
+
+}
+
+.step-box:last-child{
+    padding-left: 3%;
+}
+
+.app-screen{
+    width: 40%
+}
+
+.work-step{
+    margin-bottom: 50px;
+}
+
+.work-step div{
+    color: #e67e22;
+    border:2px solid #e67e22;
+    display: inline-block;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    margin-right: 25px;
+    float: left;
+    font-size: 150%;
+
+}
